@@ -1,4 +1,4 @@
-/* === ELEMENTOS === */
+/* === ELEMENTOS =11== */
 const resultado = document.getElementById('resultado');
 const resultadoDes = document.getElementById('resultadoDesencriptado');
 const info = document.getElementById('info');
