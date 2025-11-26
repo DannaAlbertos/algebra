@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background: linear-gradient(135deg, #95377c 0%, #cb5daa 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    background: white;
+    background: rgb(229, 181, 234);
     max-width: 600px;
     width: 100%;
     padding: 40px;
@@ -23,16 +23,25 @@ body {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
-    color: #1e3c72;
+h1 {font-family: 'Times New Roman', Times, serif;
+    color: #00040b;
     text-align: center;
     margin-bottom: 30px;
     font-size: 32px;
     font-weight: 600;
 }
 
+p {
+    color: #00040b;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
 h3 {
-    color: #2a5298;
+    color: #00040b;
     margin-bottom: 15px;
     font-size: 18px;
     font-weight: 500;
@@ -108,7 +117,7 @@ textarea:focus {
 button {
     width: 100%;
     padding: 15px;
-    background: #2a5298;
+    background: #95377c;
     color: white;
     border: none;
     border-radius: 4px;
@@ -120,7 +129,7 @@ button {
 }
 
 button:hover {
-    background: #1e3c72;
+    background: #401c3a;
 }
 
 button:active {
